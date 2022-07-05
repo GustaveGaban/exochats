@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ':Impact';
+}
+
+nav{
+    display:inline-block
+    justify-content: center;
+    align-items: center;
+    background
+}   
+
+.buttons{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    min-height: 12vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    background: #b1b1b1;
+}
+
+a{    
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1b1b1b;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+                0 0 30px var(--clr),
+                0 0 60px var(--clr),
+                0 0 100px var(--clr);
+}
