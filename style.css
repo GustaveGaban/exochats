@@ -37,7 +37,7 @@ a{
 }
 
 .images{    
-        padding: 0;
+        padding: 100px 60px;
         display: flex;
         justify-content: left;
         align-items: left;
